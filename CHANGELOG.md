@@ -1,5 +1,16 @@
 # Changelog
 
-## Version 1.0 (November 19, 2015)
+## Todo
 
-Initial release.
+[] cleanup css to work independently
+  - detach horizontal yellow line from <p>
+  - cleanup icon elements to work independently of grid-x, cell, <a>
+[] Implementation of Layout for Ferientetris.html
+
+## Version 1.1 (November 01, 2017)
+
+- Implementation of ferientetris.html
+
+## Version 1.0 (October, 2017)
+
+- Initial release.
