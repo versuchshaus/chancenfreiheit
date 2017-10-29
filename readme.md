@@ -56,9 +56,4 @@ Add and edit only the files in the folder `src`. On saving your edited files the
 http://localhost:8000
 ```
 
-Settings for Browser Sync can be found here:
-
-```
-http://localhost:3001
-```
 To create compressed, production-ready assets, run `foundation build`. Your finished and compressed site will be created in the folder called `dist`.
