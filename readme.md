@@ -1,13 +1,13 @@
-# chancenFREIHEIT Wesite
+# chancenFREIHEIT Website
 
 This is the working repository for the Website of http://chancenfreiheit.de.
 It is based on the official ZURB Foundation Template for Sites.
 
 # About Zurb Foundation
 
-[![devDependency Status](https://david-dm.org/zurb/foundation-zurb-template/dev-status.svg)](https://david-dm.org/zurb/foundation-zurb-template#info=devDependencies)
+[![devDependency Status](https://david-dm.org/versuchshaus/chancenfreiheit/dev-status.svg)](https://david-dm.org/versuchshaus/chancenfreiheit#info=devDependencies)
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+**Please open all issues with this template on the main [chancenFREIHEIT](https://github.com/versuchshaus/chancenfreiheit/issues) repo.**
 
 This site is based on the official ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites). We use this template to develop static site code for chancenFREIHEIT. It has a Gulp-powered build system with these features:
 
@@ -56,4 +56,4 @@ Add and edit only the files in the folder `src`. On saving your edited files the
 http://localhost:8000
 ```
 
-To create compressed, production-ready assets, run `foundation build`. Your finished and compressed site will be created in the folder called `dist`
+To create compressed, production-ready assets, run `foundation build`. Your finished and compressed site will be created in the folder called `dist`.
