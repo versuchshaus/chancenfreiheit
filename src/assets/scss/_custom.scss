@@ -1,5 +1,5 @@
 .linebox-l{
-  transform: rotate(-3deg);
+  transform: rotate(-2deg);
   margin: 0.5em;
   padding: 1em;
   border-top: $cf-color-5 1px solid;
@@ -7,11 +7,11 @@
 }
 
 .linebox-l-reset{
-  transform: rotate(3deg);
+  transform: rotate(2deg);
 }
 
 .linebox-r{
-  transform: rotate(4deg);
+  transform: rotate(2deg);
   margin: 0.5em;
   padding: 1em;
   border-top: $cf-color-5 1px solid;
@@ -19,12 +19,11 @@
 }
 
 .linebox-r-reset{
-  transform: rotate(-4deg);
+  transform: rotate(-2deg);
 }
 
 h2{
 background: rgba(170,33,89,0.20);
-// margin: 0.2em;
 text-align: center;
 padding-top: 0.2em;
 text-transform: uppercase;
@@ -32,7 +31,7 @@ max-width: 75%;
 margin: auto;
 margin-top: 1em;
 margin-bottom: 0.3em;
-transform: rotate(1deg);
+transform: rotate(0.5deg);
 }
 
 p{
