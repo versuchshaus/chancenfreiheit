@@ -22,31 +22,32 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cousine|Neucha">
   </head>
   <body>
-    <div class="grid-x">
-      <div class="header cell">
-        <a href="{{root}}index.html">
-        <img src="{{root}}assets/img/logo.svg" alt="chancenfreiheit Logo">
-        </a>
+    <div class="cf-page">
+      <div class="grid-x">
+        <div class="header cell">
+          <a href="{{root}}index.html">
+          <img src="{{root}}assets/img/logo.svg" alt="chancenfreiheit Logo">
+          </a>
+        </div>
+      </div>
+
+      {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+      {{> body}}
+
+      <div class="grid-x text-center">
+        <div class="medium-6 cell">
+          <a class="button" href="mailto:post@chancenfreiheit.de"><i class="fi-pencil medium"></i> <strong> Schreib uns </strong></a>
+        </div>
+        <div class="medium-6 cell">
+          <a class="button" href="https://www.facebook.com/groups/218677151967341" target="_blank"><i class="fi-social-facebook medium"></i><strong> Besuch uns</strong></a>
+        </div>
+      </div>
+      <div class="grid-x">
+        <div class="footer cell text-center">
+          <a href="{{root}}impressum.html">Impressum</a>
+        </div>
       </div>
     </div>
-
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> body}}
-
-    <div class="grid-x text-center">
-      <div class="medium-6 cell">
-        <a class="button" href="mailto:post@chancenfreiheit.de"><i class="fi-pencil medium"></i> <strong> Schreib uns </strong></a>
-      </div>
-      <div class="medium-6 cell">
-        <a class="button" href="https://www.facebook.com/groups/218677151967341" target="_blank"><i class="fi-social-facebook medium"></i><strong> Besuch uns</strong></a>
-      </div>
-    </div>
-    <div class="grid-x">
-      <div class="footer cell text-center">
-        <a href="{{root}}impressum.html">Impressum</a>
-      </div>
-    </div>
-
     <script src="{{root}}assets/js/app.js"></script>
   </body>
 </html>

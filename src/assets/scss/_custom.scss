@@ -1,3 +1,8 @@
+.cf-page{
+  max-width: 1000px;
+  margin: auto;
+}
+
 .header{
   padding: 3rem;
 }
@@ -40,9 +45,11 @@
 
 // cf-line is the Horizontal line
 .cf-line {
-  p{
     border-top: $cf-color-5 1px solid;
-  }
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    max-width: 70%
 }
 
 .button{
@@ -136,6 +143,12 @@ a{
 
 .cf-tetris{
   .square{
+    background-color: $cf-color-5;
+    opacity: 0.80;
+    -moz-opacity: 80%;
+    -webkit-opacity: 80%;
+    cursor: none;
+
     h1{
       padding-top: 20%;
       color: $black;
@@ -157,9 +170,14 @@ a{
       text-transform: uppercase;
       margin:auto;
     }
-    background-color: $cf-color-5;
-    opacity: 0.80;
-    -moz-opacity: 80%;
-    -webkit-opacity: 80%;
+  }
+}
+
+.cf-bullet{
+  list-style-type: circle;
+  li{
+    padding-top: 1rem;
+    max-width: 800px;
+    margin: auto;
   }
 }
