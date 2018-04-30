@@ -1,5 +1,10 @@
+.cf-page{
+  max-width: 1000px;
+  margin: auto;
+}
+
 .header{
-  margin: 3rem;
+  padding: 3rem;
 }
 
 // Begin Lineboxes. The Diagonal Lines
@@ -40,9 +45,11 @@
 
 // cf-line is the Horizontal line
 .cf-line {
-  p{
     border-top: $cf-color-5 1px solid;
-  }
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    max-width: 70%
 }
 
 .button{
@@ -66,7 +73,7 @@ transform: rotate(0.5deg);
 }
 
 p{
-padding-top: 1em;
+padding: 1em;
 max-width: 800px;
 margin: auto;
 }
@@ -136,12 +143,18 @@ a{
 
 .cf-tetris{
   .square{
+    background-color: $cf-color-5;
+    opacity: 0.80;
+    -moz-opacity: 80%;
+    -webkit-opacity: 80%;
+    cursor: none;
+
     h1{
-      padding-top: 9%;
+      padding-top: 20%;
       color: $black;
       text-align: center;
       text-transform: uppercase;
-      font-size: 3rem;
+      font-size: 5rem;
     }
     h2{
       color: $white;
@@ -157,9 +170,14 @@ a{
       text-transform: uppercase;
       margin:auto;
     }
-    background-color: $cf-color-5;
-    opacity: 0.80;
-    -moz-opacity: 80%;
-    -webkit-opacity: 80%;
+  }
+}
+
+.cf-bullet{
+  list-style-type: circle;
+  li{
+    padding-top: 1rem;
+    max-width: 800px;
+    margin: auto;
   }
 }

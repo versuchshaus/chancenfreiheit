@@ -1,0 +1,43 @@
+<!-- #About Section -->
+<div class="grid-x">
+  <div class="small-12 cell">
+    <h4>Don't be shy and get in touch! Together we can start making a difference to your project and move it ahead into a new direction. It would be great to hear from you</h4>
+  </div>
+</div>
+<!-- #GetInTouch Section -->
+<div class="grid-x">
+  <div class="small-12 medium-6 large-6 small-centered cell">
+    <form name="contactform" method="post" action="send_form_email.php">
+      <label for="first_name">Vorname *</label>
+      <input  type="text" name="first_name" maxlength="50" size="30">
+
+      <label for="last_name">Nachname *</label>
+      <input  type="text" name="last_name" maxlength="50" size="30">
+
+      <label for="email">E-mail Adresse *</label>
+      <input  type="text" name="email" maxlength="80" size="30">
+
+      <label for="telephone">Telefon Nummer</label>
+      <input  type="text" name="telephone" maxlength="30" size="30">
+
+      <label for="comments">Deine Nachricht *</label>
+      <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+          <input class="button g-recaptcha" data-sitekey="6LfybiMUAAAAAB1Ia_jznRJYQkWVLM5CM-LEXhxM"
+          data-callback="YourOnSubmitFn" type="submit" value="Send&nbsp;your message">
+    </form>
+  </div>
+</div>
+
+<!-- #Information Section -->
+<div class="grid-x">
+  <div class="small-12 medium-6 cell">
+    <p>Shall we work together?!
+      <br>It would be great if we would!
+    </p>
+  </div>
+  <div class="small-12 medium-6 cell">
+    <p>I promise you that your contact details will stay with me personally and that I will respect your privacy</p>
+  </div>
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
