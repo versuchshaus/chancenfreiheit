@@ -84,23 +84,7 @@
         </ul>
         <ul>
           <li> e-mail:
-            <script type="text/javascript">
-            //<![CDATA[
-            <!--
-            var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
-            "harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
-            "\\\\,l=x.length;for(i=0;i<l;i++){if(i<57)y++;y%=127;o+=String.fromCharCode(" +
-            "x.charCodeAt(i)^(y++));}return o;}f(\\\"\\\\^S]5/!(<d;<9&1:6r~b\\\\\\\\001B" +
-            "\\\\\\\\014\\\\\\\\024\\\\\\\\r\\\\\\\\014Q2R\\\\\\\\037\\\\\\\\025\\\\\\\\" +
-            "037\\\\\\\\024\\\\\\\\016\\\\\\\\023Drw`wajcOg|{{puzzMPMB@F\\\\\\\\002NABl\\"+
-            "\\\\\\023\\\\\\\\014`@PF_YWzMSSrV.&'/7-#.%g)$!qa.ns{hdn\\\"\\\\,57)\\\"(f};" +
-            ")lo,0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-l=i(rof}}{)e(hctac};l=+l;" +
-            "x=+x{yrt{)54=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel.x=lo,\\\"\\\"=o,i rav{)x" +
-            "(f noitcnuf\")"                                                              ;
-            while(x=eval(x));
-            //-->
-            //]]>
-            </script>
+
           </li>
           <li>phone DE: <a href="tel://004945130506530">+49 (0)451 3050 6530</a></li>
           <li>phone UK: <a href="tel://00442038133239">+44 (0)20 3813 3239</a></li>
